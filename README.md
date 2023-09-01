@@ -50,6 +50,18 @@ Will be rendered as:
 <div>This will replace the other children!</div>
 ```
 
+## Installation
+
+```bash
+yarn add jsoml
+```
+
+or
+
+```bash
+npm install jsoml
+```
+
 ## Usage
 
 ```typescript
