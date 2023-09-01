@@ -1,0 +1,12 @@
+{
+  "name": "jsoml",
+  "version": "0.0.1",
+  "description": "Javascript Object Markup Language",
+  "main": "index.js",
+  "repository": "https://github.com/ricardoboss/JSOML",
+  "author": "Ricardo Boss",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "div": {
+        "p": "Hello World!",
+        "a": {
+            "$href": "https://github.com/ricardoboss",
+            "$target": "_blank",
+            "$rel": "noopener noreferrer me",
+            "br": "",
+            "strong": "Click me!",
+            "$text": "Visit my GitHub!",
+            "ul": [
+                {
+                    "li": "Item 1"
+                },
+                {
+                    "li": {
+                        "$text": "Item 2",
+                        "$style": "color: blue;"
+                    }
+                },
+                {
+                    "li": {
+                        "a": {
+                            "$text": "I'm a link!",
+                            "$style": {
+                                "color": "red",
+                                "font-weight": "bold"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "h1": "Hello World!",
+    "user": "custom component",
+    "script": {
+        "$type": "text/javascript",
+        "$text": "console.log('Hello World!');"
+    }
+}
