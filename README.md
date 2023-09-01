@@ -72,6 +72,22 @@ const html = render(/* JSOML object */);
 document.body.innerHTML = html.toString();
 ```
 
+## Development
+
+Just install the dependencies:
+
+```bash
+yarn
+```
+
+And to test the example:
+
+```bash
+cd example
+yarn
+yarn dev
+```
+
 ## License
 
 This project is licensed under the MIT License.
